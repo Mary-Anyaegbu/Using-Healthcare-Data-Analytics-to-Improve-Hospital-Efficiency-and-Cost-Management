@@ -25,10 +25,11 @@ The dataset was imported into Power Query for cleaning and preprocessing to prep
 * Filtering Irrelevant Data: Removed columns not required for the analysis.
 * Creating Derived Columns: Added a conditional column for age groups and calculated patient length of stay (Discharge date – Admission date).
 * Documenting Cleaning Steps: Maintained detailed records of all cleaning and transformation actions for transparency and reproducibility.
-### Calculated Fields and DAX Measures
-Once the data was cleaned in Power Query, it was loaded into the data model.
+### Data Modelling
+Once the data was cleaned in Power Query, it was loaded into the data model. A date table was created to enable time intelligence calculations. The date table was connected to dataset facts table.
 ![Data_modelling](Images/Data_modelling.png)
 
+### Calculated Fields and DAX Measures
 A blank table was set up to store DAX measures, and key performance indicators (KPIs) were calculated using DAX. The following KPIs were developed:
 | KPI | Description |
 |-----|-------------|
