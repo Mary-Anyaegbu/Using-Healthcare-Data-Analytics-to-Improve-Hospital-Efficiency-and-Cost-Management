@@ -44,6 +44,8 @@ A single-page interactive dashboard was developed to address stakeholder questio
 ### Dashboard Preview:
 ![Dashboard](Images/Dashboard.png)
 
+[Download the Dashboard](./Healthcare_Dashboard)
+
 ## Insights 
 The following insights are drawn from the analyzed patient data, highlighting key trends in operations and patient volume,. These findings provide actionable guidance for strategic planning, resource allocation, and financial decision-making.
 * The network manages 40,200 unique patients across 55,000 total hospital visits, generating $1.4 billion in total billing equating to an average of $34,900 per patient. This reflects a high-revenue, moderate-volume operating model, with a relatively prolonged average length of stay of 15 days, indicating significant resource utilization per case.
