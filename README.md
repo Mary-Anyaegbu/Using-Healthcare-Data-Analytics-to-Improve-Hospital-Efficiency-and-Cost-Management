@@ -30,7 +30,8 @@ Once the data was cleaned in Power Query, it was loaded into the data model. A d
 ![Data_modelling](Images/Data_modelling.png)
 
 ### Calculated Fields and DAX Measures
-A blank table was set up to store DAX measures, and key performance indicators (KPIs) were calculated using DAX. The following KPIs were developed:
+A blank table was set up to store DAX measures, and key performance indicators (KPIs) were calculated using DAX. 
+The data was analysed with Pivot Tables and DAX Measures using Power Pivot. The following KPIs were developed:
 | KPI | Description |
 |-----|-------------|
 | Total Billing Amount | Sum of all charges billed to patients over a specific period; reflects overall hospital revenue from patient services |
