@@ -27,7 +27,7 @@ The dataset was imported into Power Query for cleaning and preprocessing to prep
 * Documenting Cleaning Steps: Maintained detailed records of all cleaning and transformation actions for transparency and reproducibility.
 ### Calculated Fields and DAX Measures
 Once the data was cleaned in Power Query, it was loaded into the data model.
-![Data Modelling](Images/DataModelling.png)
+![Data_modelling](Images/Data_modelling.png)
 
 A blank table was set up to store DAX measures, and key performance indicators (KPIs) were calculated using DAX. The following KPIs were developed:
 | KPI | Description |
